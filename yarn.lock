@@ -1166,6 +1166,31 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha512-KbWgR8wOYRAPekEmMXrYYdc7BRyhn2Ftk7KWfMUnQ43hFdojWEFRxhhRUm3/OFEdPa1r0KAvTTg9YQK57xTe0g==
 
+automerge-js@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/automerge-js/-/automerge-js-0.1.3.tgz#aa64bd3e1263954ac51485a2d99e2bf4a48354db"
+  integrity sha512-6OvHaDkmf/0pkxaMwgYvqgpWNKbSFGGwFnK/30Fl/Gi4NlrpJfBgUUJbRHdKYkXIcKpCkBVpLZ9UPPykBi2XcQ==
+  dependencies:
+    automerge-types "0.1.4"
+    uuid "^8.3"
+
+automerge-types@0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/automerge-types/-/automerge-types-0.1.3.tgz#50bcd545ae85bb4d29ee6117c5448e1e117cb33c"
+  integrity sha512-ntf+9EbGc1kT0wkpE+4t+w/VsDS+AAzkajPhemn0vrXgG12mUu67w5nuZnkmYJY3Rh9Cmx9RcwQXRg8o88FJ1w==
+
+automerge-types@0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/automerge-types/-/automerge-types-0.1.4.tgz#ecefcfd5dc8703fb64c3c61f98d24685b746cb86"
+  integrity sha512-VguW0d8Wt8jqbObh8bmMlGZMyUR2Av6eMtboekEzuHI3juru4oeq5+4brcceO/0Us8bkQdfZGErCR9vmBcX7Sw==
+
+automerge-wasm@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/automerge-wasm/-/automerge-wasm-0.1.5.tgz#afa3eaf000ca4c83b68e58b1b81d2b5cebae1d84"
+  integrity sha512-yXJqyi9eiO0xkaHiJQW9VKAXe0Q50SfDwJ9Jbx+3jrrCuVeVlzccpnNaqBUYA+Z0sB0WprSH+cz/9n8hn61Y9Q==
+  dependencies:
+    automerge-types "0.1.3"
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
@@ -6026,7 +6051,7 @@ uuid@^3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-uuid@^8.3.2:
+uuid@^8.3, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
